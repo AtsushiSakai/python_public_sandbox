@@ -9,9 +9,12 @@ class MyContextManager:
 
 def main():
     with MyContextManager() as e:
-        raise IOError
         print(f'hello context manager:{e}')
 
 
 if __name__ == '__main__':
+    # === Output ===
+    # enter
+    # hello context manager:yield
+    # exit
     main()

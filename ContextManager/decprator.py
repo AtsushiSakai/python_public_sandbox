@@ -14,4 +14,8 @@ def main():
 
 
 if __name__ == '__main__':
+    # === Output ===
+    # enter
+    # hello context manager:yield
+    # exit
     main()
